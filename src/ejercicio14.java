@@ -12,7 +12,7 @@ public class ejercicio14 {
         int intentos = 5;
 
         while (intentos > 0) {
-            int random_num = random.nextInt(101); // Adivina un número aleatorio
+            int random_num = random.nextInt(101);
 
             System.out.println("\nEstas pensando en el " + random_num + "?");
             System.out.print("Correcto (c), Menor (m) o Mayor (M): ");
