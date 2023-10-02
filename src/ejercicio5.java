@@ -8,7 +8,7 @@ public class ejercicio5 {
         int max = 0;
         int min = 200;
         Random rand = new Random();
-        for (int cont = 0; numerosAleatorios.size() < 50; cont++) {
+        while (numerosAleatorios.size() < 50) {
             numerosAleatorios.add(rand.nextInt(100)+100);
         }
         for (int numero: numerosAleatorios) {

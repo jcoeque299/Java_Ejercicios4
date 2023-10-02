@@ -9,7 +9,7 @@ public class ejercicio11 {
         List<String> notasPosibles = List.of("Suspenso", "Suficiente", "Bien", "Notable", "Sobresaliente");
         ArrayList<Integer> cantidadNotas = new ArrayList<>(List.of(0, 0, 0, 0, 0));
         String notaElegida = "";
-        for (int cont = 0; notas.size() < 20; cont++) {
+        while (notas.size() < 20) {
             notaElegida = notasPosibles.get(rand.nextInt(5));
             switch (notaElegida) {
                 case "Suspenso":
