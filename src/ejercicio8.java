@@ -8,7 +8,7 @@ public class ejercicio8 {
         List<List> apuestas = new ArrayList<>(List.of());
         List<String> resultadosPosibles = List.of("1", "1", "1", "X", "X", "2");
         List<String> resultadosPosiblesPleno = List.of("0","1","2","M");
-        for (int cont = 0; apuestas.size() < 14; cont++) {
+        while (apuestas.size() < 14) {
             apuestas.add(List.of(resultadosPosibles.get(rand.nextInt(6)),resultadosPosibles.get(rand.nextInt(6)),resultadosPosibles.get(rand.nextInt(6))));
             //Para cada apuesta, se crea una lista de 3 apuestas, hasta llegar a los 15 partidos
         }
